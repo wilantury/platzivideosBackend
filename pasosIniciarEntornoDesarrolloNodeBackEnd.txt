@@ -1,0 +1,28 @@
+1: git init
+2: npm init -y
+3: crear .eslintrc.json
+{
+  "parserOptions" : {
+    "ecmaVersion" : 2018
+  },
+  "extends": ["eslint: recommended", "prettier"],
+  "env":{
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-console": "warn"
+  }
+}
+
+4: crear .prettierrc.json
+{
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true
+}
+
+5: instalar dependencias produccion: npm i express dotenv  //son dependencias de produccion
+6: instalar dependencias desarrollo: npm i -D nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier
+7: instalar npx mrm lint-staged
