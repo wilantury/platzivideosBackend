@@ -1,5 +1,5 @@
 //capa de servicios: se comunican con otros servicios y con librerías. El controlador solo se comunica con servicios
-//const { moviesMock } = require('../utils/mocks/movies.js')
+const { moviesMock } = require('../utils/mocks/movies.js')
 //ahora usaremos nuestra base de datos de mongodb
 const MongoLib = require('../lib/mongo');
 
