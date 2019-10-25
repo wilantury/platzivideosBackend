@@ -25,4 +25,6 @@
 
 5: instalar dependencias produccion: npm i express dotenv  //son dependencias de produccion
 6: instalar dependencias desarrollo: npm i -D nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier
-7: instalar npx mrm lint-staged
+7: instalar npx mrm lint-staged //formatea el codigo al hacer commit
+8: creando conexion a nuestra instancia de mongoDB, cuanta creada con anturyf@gmail.com
+9: 
