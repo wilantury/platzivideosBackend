@@ -27,4 +27,5 @@
 6: instalar dependencias desarrollo: npm i -D nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier
 7: instalar npx mrm lint-staged //formatea el codigo al hacer commit
 8: creando conexion a nuestra instancia de mongoDB, cuanta creada con anturyf@gmail.com
-9: 
+9: instalar mongodb: npm i mongodb
+10: el cluster lo instale en google cloud, tener cuidado con mayusculas en el nombre del cluster cuando se adquiere el dato del host
